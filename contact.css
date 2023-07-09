@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(246, 204, 189, 0.55)
+}
+
+header {
+    background-color: rgba(155, 99, 122, 0.47);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h1
+{
+    color: transparent;
+    animation: effect 2s linear infinite;
+}
+h2
+{
+    font-family: Pristina;
+}
+p{
+    color:#666;
+}
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+                #b08cc5, #9b639a, #80425c);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+                #af436d, #9d3b71, #5e2670);
+        -webkit-background-clip: text;
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(110, 62, 83, 0.6);
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #5c1977;
+    text-align: center;
+    padding: 11px 115px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Pristina;
+    padding-left: 198px;
+}
+
+nav ul li a:hover {
+    background-color: #666;
+}
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #666;
+}
+
+footer {
+    background-color: rgba(169, 100, 124, 0.47);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer p
+{
+    color: transparent;
+    animation: effect 2s linear infinite;
+    font-family: Pristina;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+                #b08cc5, #9b639a, #80425c);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+                #b6386f, #c2237d, #4b115b);
+        -webkit-background-clip: text;
+    }
+}
